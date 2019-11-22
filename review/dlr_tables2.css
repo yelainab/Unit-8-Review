@@ -14,47 +14,48 @@
 */
 
 /* Table Styles */
-table.progams{
+table.programs{
    width: 100%;
-   border: 15px outset rgb(151,151,151);
+   border: 15px outset rgb(151, 151, 151);
    border-collapse: collapse;
    font-family: Arial, Verdana, sans-serif;
 }
-table.progams tr{
+table.programs tr{
    height: 25px;
 }
-table.progams th, table.progams td{
-   border: 1px solid gray;
-   vertical-align: top; 
+table.programs th,table.programs td{
+   border: 1px outset gray;
+   vertical-align: top;
    padding: 5px;
 }
 /* Table Caption Styles */
-caption{
-   vertical-align: bottom; 
-   
+table.programs caption{
+   caption-side: bottom;
+   text-align: center;
 }
-
 /* Table Column Styles */
 col.timeColumn{
    width: 10%;
-   background: rgb(215, 205,151);
+   background: rgb(215, 205, 151);
 }
 col.wDayColumns{
    width: 11%;
-   background: rgb(236,255,211);
+   background: rgb(236, 255, 211);
 }
 col.wEndColumns{
    width: 17%;
-   background: rgb(255,231,255);
+   background: rgb(255, 231, 235);
 }
-
 /* Table Header Styles */
-thead{
+table.programs thead{
    color: white;
-   background: rgb(153, 86,7);
+   background: rgb(105, 177, 60);
 }
-thead th:nth-of-type(7), thead th:nth-of-type(8){
-   background: rgb(153,0,153);
+table.programs thead th:first-of-type{
+   background: rgb(153, 86, 7);
+}
+table.programs thead th:nth-of-type(7), table.programs thead th:nth-of-type(8){
+   background: rgb(153, 0, 153);
 }
 
 /* Table Footer Styles */
